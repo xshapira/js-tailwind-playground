@@ -26,14 +26,7 @@ module.exports = {
       { ignores: ['modules'] }
     ],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
-    'node/no-unpublished-import': [
-      'error',
-      {
-        allowModules: [],
-        convertPath: null,
-        tryExtensions: ['.js', '.json', '.node']
-      }
-    ]
+    'node/no-unpublished-import': 'error'
   },
   ignorePatterns: ['**/*.html']
 };
